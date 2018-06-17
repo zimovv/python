@@ -4,7 +4,7 @@ print("Guess what number I am thinking (0~100)")
 num = randint(0,100)
 
 result = False
-while result==False:
+while not result:
     inNum = eval(input())
     
     if inNum > num:
